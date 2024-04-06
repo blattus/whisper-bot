@@ -5,6 +5,8 @@ import os
 import fal_client
 import fastapi_poe as fp
 import httpx
+from dotenv import load_dotenv
+load_dotenv()
 
 POE_ACCESS_KEY = os.getenv("POE_ACCESS_KEY")
 FAL_KEY = os.getenv("FAL_KEY")
